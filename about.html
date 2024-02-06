@@ -3,36 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About - Janitorial Services</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>About Us - Janitorial Services</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
+  <!-- Global Header -->
   <header>
-    <div class="container">
-      <h1>Janitorial Services</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Janitorial Services</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
 
-  <section id="about">
+  <!-- Main Content -->
+  <section class="main-content py-5">
     <div class="container">
-      <h2>About Us</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim vel nisl at tristique. Duis eleifend augue non tortor aliquet, vel ultricies magna pulvinar.</p>
-      <p>Integer sed tortor id ligula finibus feugiat. Morbi bibendum libero id enim tincidunt, vel pharetra velit fermentum. Mauris sed urna nec leo dictum vestibulum.</p>
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <h2 class="text-center mb-4">About Us</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim vel nisl at tristique. Duis eleifend augue non tortor aliquet, vel ultricies magna pulvinar.</p>
+          <p>Integer sed tortor id ligula finibus feugiat. Morbi bibendum libero id enim tincidunt, vel pharetra velit fermentum. Mauris sed urna nec leo dictum vestibulum.</p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <footer>
+  <!-- Global Footer -->
+  <footer class="bg-dark text-white py-4">
     <div class="container">
-      <p>&copy; 2024 Janitorial Services</p>
+      <p class="text-center">&copy; 2024 Janitorial Services</p>
     </div>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
